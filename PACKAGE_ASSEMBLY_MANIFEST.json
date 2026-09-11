@@ -1,0 +1,32 @@
+{
+  "dataset_policy": {
+    "automatic_publication": false,
+    "classification": "REVIEW_BEFORE_PUBLICATION",
+    "copied_into_package": false,
+    "recommended_default": "EXCLUDE_FROM_PUBLIC_REPOSITORY_UNLESS_EXPLICITLY_APPROVED"
+  },
+  "model_selection": {
+    "best_k2_silhouette": 0.895825,
+    "best_tested_k": 2,
+    "k2_advantage": 0.279597,
+    "k4_status": "CONDITIONAL",
+    "saved_k": 4,
+    "saved_k4_silhouette": 0.616228
+  },
+  "mutation_flags": {
+    "cloud_mutation": false,
+    "commit": false,
+    "dataset_modification": false,
+    "file_modification": true,
+    "git_initialization": false,
+    "git_mutation": false,
+    "model_modification": false,
+    "model_training": false,
+    "project_mutation": true,
+    "push": false
+  },
+  "package_root": "/content/drive/MyDrive/Customer_Segmentation_Output/GITHUB_CUSTOMER_SEGMENTATION",
+  "step": "5-R4",
+  "timestamp_utc": "2026-09-11T18:51:45.231440+00:00",
+  "title": "Controlled GitHub Package Assembly"
+}

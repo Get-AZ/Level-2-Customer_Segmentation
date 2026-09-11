@@ -1,0 +1,75 @@
+{
+  "checks": {
+    "career_consistency": false,
+    "dataset_publication_safety": true,
+    "git_safety": true,
+    "large_file_audit": true,
+    "models": true,
+    "notebook": false,
+    "package_root": true,
+    "r4_evidence_reconciliation": true,
+    "readme": false,
+    "required_structure": true,
+    "sensitive_filename_audit": true
+  },
+  "dataset": {
+    "automatic_publication": false,
+    "classification": "REVIEW_BEFORE_PUBLICATION",
+    "excluded_from_package": true,
+    "source_sha256": "b43b197cc409e2c8a058e06f86e0ba408fc9dbe4993d22489d9fd91fafa794d9"
+  },
+  "decision": "One or more package integrity checks failed. No mutation was performed during this audit.",
+  "determination": "PACKAGE_INTEGRITY_REQUIRES_REVIEW",
+  "execution_mode": "READ-ONLY",
+  "model_selection": {
+    "best_k2_silhouette": 0.895825,
+    "best_tested_k": 2,
+    "k2_advantage": 0.279597,
+    "k4_status": "CONDITIONAL",
+    "saved_k": 4,
+    "saved_k4_silhouette": 0.616228
+  },
+  "models": {
+    "kmeans_model.pkl": {
+      "expected_sha256": "c8dd6a3d5c53046bf3baaa83f0f95bc242685468d7462987aa41c51adb6b0773",
+      "identical": true,
+      "package_sha256": "c8dd6a3d5c53046bf3baaa83f0f95bc242685468d7462987aa41c51adb6b0773",
+      "source_sha256": "c8dd6a3d5c53046bf3baaa83f0f95bc242685468d7462987aa41c51adb6b0773"
+    },
+    "pca_model.pkl": {
+      "expected_sha256": "684e9b2567e0586d0803ad646d10982287b75eae42b3d83963e01e98bf86bd71",
+      "identical": true,
+      "package_sha256": "684e9b2567e0586d0803ad646d10982287b75eae42b3d83963e01e98bf86bd71",
+      "source_sha256": "684e9b2567e0586d0803ad646d10982287b75eae42b3d83963e01e98bf86bd71"
+    },
+    "standard_scaler.pkl": {
+      "expected_sha256": "13a08909d42deb64a4440eab223bcf7fdd1c5e397fa54a40108cf2e9a14c1512",
+      "identical": true,
+      "package_sha256": "13a08909d42deb64a4440eab223bcf7fdd1c5e397fa54a40108cf2e9a14c1512",
+      "source_sha256": "13a08909d42deb64a4440eab223bcf7fdd1c5e397fa54a40108cf2e9a14c1512"
+    }
+  },
+  "mutation_flags": {
+    "cloud_mutation": false,
+    "commit": false,
+    "dataset_modification": false,
+    "file_modification": false,
+    "git_initialization": false,
+    "git_mutation": false,
+    "model_modification": false,
+    "model_training": false,
+    "project_mutation": false,
+    "push": false
+  },
+  "notebook": {
+    "identical": false,
+    "package_sha256": "ad4f91df145d83ffa22d84fe8b1410650304a4577ea9e756f9273b485c5316c0",
+    "source_sha256": "60948d11923f0ba4e33e6a495cfa5b8629e9f9d7730e67d537c2d16f23b34124"
+  },
+  "package_file_count": 16,
+  "package_root": "/content/drive/MyDrive/Customer_Segmentation_Output/GITHUB_CUSTOMER_SEGMENTATION",
+  "status": "FAIL",
+  "step": "5-R5",
+  "timestamp_utc": "2026-09-11T18:55:36.832910+00:00",
+  "title": "Final GitHub Package Integrity Audit"
+}

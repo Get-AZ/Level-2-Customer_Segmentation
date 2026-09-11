@@ -1,0 +1,66 @@
+{
+  "assembly_status": "COMPLETE",
+  "dataset": {
+    "automatic_publication": false,
+    "classification": "REVIEW_BEFORE_PUBLICATION",
+    "copied_into_package": false,
+    "source_exists": true,
+    "source_sha256": "b43b197cc409e2c8a058e06f86e0ba408fc9dbe4993d22489d9fd91fafa794d9"
+  },
+  "decision": "CONTROLLED PACKAGE ASSEMBLY COMPLETE. Verified notebook and frozen model artifacts copied without alteration. Customer-level CSV excluded. No Git initialization, commit, push, retraining, model replacement, or cloud mutation performed.",
+  "execution_mode": "CONTROLLED-FILE-MUTATION",
+  "integrity": {
+    "dataset_exclusion_pass": true,
+    "git_safety_pass": true,
+    "models_pass": true,
+    "notebook_pass": true
+  },
+  "model_selection": {
+    "best_k2_silhouette": 0.895825,
+    "best_tested_k": 2,
+    "k2_advantage": 0.279597,
+    "k4_status": "CONDITIONAL",
+    "saved_k": 4,
+    "saved_k4_silhouette": 0.616228
+  },
+  "models": {
+    "kmeans_model.pkl": {
+      "matches_verified_source": true,
+      "sha256": "c8dd6a3d5c53046bf3baaa83f0f95bc242685468d7462987aa41c51adb6b0773",
+      "size_bytes": 18479
+    },
+    "pca_model.pkl": {
+      "matches_verified_source": true,
+      "sha256": "684e9b2567e0586d0803ad646d10982287b75eae42b3d83963e01e98bf86bd71",
+      "size_bytes": 1367
+    },
+    "standard_scaler.pkl": {
+      "matches_verified_source": true,
+      "sha256": "13a08909d42deb64a4440eab223bcf7fdd1c5e397fa54a40108cf2e9a14c1512",
+      "size_bytes": 975
+    }
+  },
+  "mutation_flags": {
+    "cloud_mutation": false,
+    "commit": false,
+    "dataset_modification": false,
+    "file_modification": true,
+    "git_initialization": false,
+    "git_mutation": false,
+    "model_modification": false,
+    "model_training": false,
+    "project_mutation": true,
+    "push": false
+  },
+  "notebook": {
+    "identical": true,
+    "package_sha256": "ad4f91df145d83ffa22d84fe8b1410650304a4577ea9e756f9273b485c5316c0",
+    "source_sha256": "ad4f91df145d83ffa22d84fe8b1410650304a4577ea9e756f9273b485c5316c0"
+  },
+  "package_file_count": 15,
+  "package_root": "/content/drive/MyDrive/Customer_Segmentation_Output/GITHUB_CUSTOMER_SEGMENTATION",
+  "required_files_present": true,
+  "step": "5-R4",
+  "timestamp_utc": "2026-09-11T18:51:45.231440+00:00",
+  "title": "Controlled GitHub Package Assembly"
+}

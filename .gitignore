@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+secrets/
+credentials/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary/runtime
+*.tmp
+*.temp
+*.log
+runtime/
+cache/
+tmp/
+
+# Customer-level local data
+Customer_Segmentation.csv
+data/Customer_Segmentation.csv
+results/Customer_Segmentation.csv
+
+# Experiment tracking
+mlruns/
+wandb/
