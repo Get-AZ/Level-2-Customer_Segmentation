@@ -1,3 +1,4 @@
+![Level 2 Customer Segmentation](level-2.png)
 # Customer Segmentation — Online Retail
 
 ## Project Overview
