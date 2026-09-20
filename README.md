@@ -1,4 +1,5 @@
-![Level 2 Customer Segmentation](./level-2.png)
+![Level 2 Customer Segmentation](https://github.com/Get-AZ/Level-2-Customer_Segmentation/blob/main/Level%202.png?raw=true)
+
 # Customer Segmentation — Online Retail
 
 ## Project Overview
